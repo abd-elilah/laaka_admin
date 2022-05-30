@@ -1,3 +1,4 @@
+import { ProfileComponent } from './admin/profile/profile.component';
 import { AgentItemComponent } from './agent/agent-item/agent-item.component';
 import { AgentFormComponent } from './agent/agent-form/agent-form.component';
 import { AgentListComponent } from './agent/agent-list/agent-list.component';
@@ -23,7 +24,8 @@ const routes: Routes = [
     [
       {path:"add-agent",component:AgentFormComponent},
       {path:"agents",component:AgentListComponent},
-      {path:"agent",component:AgentItemComponent}
+      {path:"agent",component:AgentItemComponent},
+      {path:"profile",component:ProfileComponent}
     ]
 
   }

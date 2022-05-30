@@ -1,3 +1,4 @@
+import { AdminModule } from './admin/admin.module';
 import { AgentModule } from './agent/agent.module';
 import { AuthenticatModule } from './Authenticat/authenticat.module';
 import { NgModule } from '@angular/core';
@@ -11,8 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-
-    AppComponent,
+               AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -20,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     AuthenticatModule,
     AgentModule,
+    AdminModule
 
   ],
   providers: [],

@@ -16,8 +16,8 @@
 
       <a mat-list-item [routerLink]="['add-agent']" (click)="sidenav.toggle()"> Add Agent </a>
       <a mat-list-item [routerLink]="['agents']" (click)="sidenav.toggle()"> List Agent </a>
-      <a mat-list-item [routerLink]="'/contacts'" (click)="sidenav.toggle()"> Dashboard</a>
-      <a mat-list-item [routerLink]="['profile']" (click)="sidenav.toggle()" class="fa fa-user"> Profile </a>
+      <a mat-list-item [routerLink]="''" (click)="sidenav.toggle()"> Dashboard</a>
+      <a mat-list-item [routerLink]="['profile']" (click)="sidenav.toggle()" > Profile </a>
       <a mat-list-item (click)="sidenav.toggle()" [routerLink]="'/login'">Quit</a>
 
     </mat-nav-list>
