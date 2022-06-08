@@ -26,6 +26,7 @@ const routes: Routes = [
       {path:"agents",component:AgentListComponent},
       {path:"agent",component:AgentItemComponent},
       {path:"profile",component:ProfileComponent}
+      
     ]
 
   }

@@ -1,6 +1,6 @@
 <!-- angular material toolbar with sidenav -->
 
-<mat-toolbar color="primary">
+<mat-toolbar >
   <mat-toolbar-row>
     <button mat-icon-button>
       <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
@@ -14,11 +14,11 @@
   <mat-sidenav #sidenav>
     <mat-nav-list>
 
-      <a mat-list-item [routerLink]="['add-agent']" (click)="sidenav.toggle()"> Add Agent </a>
-      <a mat-list-item [routerLink]="['agents']" (click)="sidenav.toggle()"> List Agent </a>
-      <a mat-list-item [routerLink]="''" (click)="sidenav.toggle()"> Dashboard</a>
-      <a mat-list-item [routerLink]="['profile']" (click)="sidenav.toggle()" > Profile </a>
-      <a mat-list-item (click)="sidenav.toggle()" [routerLink]="'/login'">Quit</a>
+      <a mat-list-item [routerLink]="['add-agent']" (click)="sidenav.toggle()"><mat-icon>add</mat-icon> Add Agent </a>
+      <a mat-list-item [routerLink]="['agents']" (click)="sidenav.toggle()"><mat-icon>list</mat-icon> List Agent </a>
+      <a mat-list-item [routerLink]="''" (click)="sidenav.toggle()"><mat-icon>dashboard</mat-icon> Dashboard</a>
+      <a mat-list-item [routerLink]="['profile']" (click)="sidenav.toggle()" ><mat-icon>person</mat-icon> Profile </a>
+      <a mat-list-item (click)="sidenav.toggle()" [routerLink]="'/login'"><mat-icon>logout</mat-icon>Quit</a>
 
     </mat-nav-list>
   </mat-sidenav>
