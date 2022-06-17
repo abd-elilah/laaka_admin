@@ -1,12 +1,12 @@
 mat-toolbar {
-  background: #042c29;
+  background: #1b6f6a;
   color: white;
 }
 
 mat-sidenav {
   width: 200px;
   border-right: none;
-  background: #042c29;
+  background: #1b6f6a;
   color: rgb(250, 250, 250);
 
   padding: 16px;

@@ -1,3 +1,21 @@
+.cardglobal{
+  font-size: medium;
+  border: solid 2px brown;
+width: 80rem;
+/* height: 40rem; */
+}
+table, th, td {
+
+ font-size: medium;
+color: black;
+padding: 2%;
+
+/* border: 1px solid black; */
+border-collapse: collapse;
+}
 table {
-  width: 100%;
+width: 80rem ;
+}
+.mat-elevation-z8{
+background-color: rgba(235, 235, 233, 0.577);
 }
