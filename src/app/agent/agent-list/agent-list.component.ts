@@ -10,70 +10,9 @@ import { Agent } from '../model/agent';
   styleUrls: ['./agent-list.component.css']
 })
 export class AgentListComponent implements OnInit ,AfterViewInit {
-  // table of agents
+  // table of agent
   agents: Agent[] = [
-    new Agent(1,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(2,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(3,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(4,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(5,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-    new Agent(6,'abdell','boudribila','abdell','zekdbejh@jkbeze','0643138764','agent'),
-
-
-  ];
+                    ];
 
   constructor(private router:Router) { }
 
